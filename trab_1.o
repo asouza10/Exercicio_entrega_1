@@ -1,0 +1,57 @@
+#include <stdio.h>
+#include <conio.h>
+
+int vet(20),i,j,aux;
+
+
+int cria_vetor(){
+    
+ for (i=0;i<20;i++)
+{
+	printf ("Digite o valore %d",i+1);
+	scanf("%d",&vet[i]);
+}
+
+int ordena_e_imprime(){
+
+    for(i=0.i<20;i++)
+	
+    {
+	for(j=i+1;j<21;j++)
+	  {
+		if(vet[i]>vet[j])
+			{
+			aux=vet[j];
+			vet[j]=vet[i];
+			vet[i]=aux;
+			}
+
+	  }
+	printf("o %da valor eh:%d",i+1,vet[i])		
+   }
+}
+
+flot media_de_valores( int aux_[])
+{
+  int aux=0;
+  float media=0;
+  for(i=0;i<20;i++)
+         {
+          aux=aux+aux_[i];                           
+         }
+  media=aux/20;
+  i=0;
+  return(media);
+}
+
+flot desvio_padrao(
+
+void main(void) {
+     
+int cria_vetor();
+
+int ordena_e_imprime();
+
+}
+
+
